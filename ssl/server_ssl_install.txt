@@ -62,3 +62,14 @@ service ocserv restart
 
 #客户端使用example.com:4433 就可以连接到服务器了
 #记得把example.com 更换成你的域名
+
+
+证书续期
+
+./letsencrypt-auto renew
+
+如果提示错误Certbot has problem setting up the virtual environment.   
+
+
+删掉 /root/.pip/pip.conf  即可
+

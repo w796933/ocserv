@@ -1,3 +1,9 @@
+ 先安装tcp    bbrplus 加速模式
+ 
+ 
+ 
+
+
 ## Cisco anyconnect 服务器搭建（服务器软件采用ocserv）注意本项目是基于Centos7操作系统
 ### 安装步骤 ###
 > * 安装ocserv 服务器，请使用下面的脚本文件进行安装

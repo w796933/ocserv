@@ -1,6 +1,13 @@
  先安装tcp    bbrplus 加速模式
  
  
+ wget  https://raw.githubusercontent.com/CNMan/ocserv-cn-no-route/master/cn-no-route.txt
+ 
+  vim cn-no-route.txt 
+  
+  cat  cn-no-route.txt >> ocserv.conf
+ 
+ service  ocserv restart
  
 
 

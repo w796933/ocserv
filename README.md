@@ -9,11 +9,24 @@
  
  service  ocserv restart
  
- 
+ ==================================================================
  如果iOS设备可以连接成功，但是不能上网。修改 ocserv.com
  tunnel-all-dns = true
 dns = 8.8.8.8
 dns = 8.8.4.4
+
+split-dns = 改成自己证书的域名
+
+cisco-client-compat = false
+
+dtls-psk = false
+
+dtls-legacy = false
+
+=====================================================================
+
+
+
 
 
 

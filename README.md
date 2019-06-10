@@ -9,6 +9,13 @@
  
  service  ocserv restart
  
+ 
+ 如果iOS设备可以连接成功，但是不能上网。修改 ocserv.com
+ tunnel-all-dns = true
+dns = 8.8.8.8
+dns = 8.8.4.4
+
+
 
 
 ## Cisco anyconnect 服务器搭建（服务器软件采用ocserv）注意本项目是基于Centos7操作系统

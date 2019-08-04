@@ -19,7 +19,11 @@ dns = 8.8.4.4
 
 split-dns = 改成自己证书的域名
 
-cisco-client-compat = false
+cisco-client-compat = true   //cisco 客户端兼容模式
+
+
+很多运营商不知道udp 的  dtls 链接  把  dtls  设置成false.不改也可以。  只是链接的时候比较慢，会重新用 tls tcp协议链接
+
 
 dtls-psk = false
 
